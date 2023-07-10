@@ -16,6 +16,13 @@ public class TestController {
 
         return "Success1";
     }
+
+
+    @GetMapping("/test2")
+    public String test2() {
+
+        return "这是第二次构建";
+    }
 }
 
 
